@@ -1,5 +1,5 @@
 var APIKey = "17a7047729d643d7beb122051252406";
-var baseURL = "http://api.weatherapi.com/v1";
+var baseURL = "https://api.weatherapi.com/v1";
 
 var mainCard = document.getElementById("card1");
 var secondryCard = document.getElementById("card2");
