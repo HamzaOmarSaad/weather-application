@@ -1,0 +1,114 @@
+nav  {
+ background-color: #262936;
+}
+
+
+.navbar-nav{
+  color: #ccc;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover,.nav-link.active {
+  color: #0dcaf0 !important;
+  border:2px solid #0dcaf0 ;
+  border-radius: 50px;
+
+}
+
+
+
+
+.tagline{
+    font-size: 10px;
+}
+.search {
+ background-color: #262936;
+ position: relative;
+ top: 60px;
+
+}
+.form-control{
+     background-color: #262936;
+     color: white;
+
+}
+.form-control::placeholder{
+     color: white;
+
+}
+
+.search-section{
+background-image: url("../assets/asset\ 7.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 60vh;
+
+
+}
+
+.weather-section{
+  background-color: #1E202B;
+
+
+
+}
+
+.weather-elements{
+    position: relative;
+    z-index: 2;
+    top: -12rem;
+}
+
+.card{
+    background-color: #262936;
+    color: white;
+    height: 100%;
+
+}
+.card.middle{
+    background-color: #1E202B;
+
+}
+
+
+
+footer {
+    background-color: #262936;
+    height: 30vh;
+
+}
+
+footer .input , footer .form-control  {
+    background-color: #1E202B;
+
+}
+
+footer .contact{
+    background: #1E202B;
+}
+
+.social-icon {
+  width: 45px;
+  height: 45px;
+  background-color: #1E202B;
+  color: #0dcaf0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.card-text.type
+{
+    color: #0dcaf0;
+}
+
+.contact-page{
+    height: 70vh;
+    background-color: #1E202B;
+
+}
